@@ -161,7 +161,7 @@ function Home() {
               Find your perfect getaway
             </h1>
             <p className="text-xl text-white/90 mb-8 text-shadow">
-              Discover unique stays around the world with StayScape
+              Discover unique stays around the world with HomeStay
             </p>
             
             {/* Search Form */}

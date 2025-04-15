@@ -38,7 +38,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              StayScape
+              HomeStay
             </motion.div>
           </a>
 
@@ -188,7 +188,7 @@ function App() {
           
           <div className="mt-8 pt-8 border-t border-surface-200 dark:border-surface-700 flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-surface-600 dark:text-surface-400 mb-4 md:mb-0">
-              © 2023 StayScape, Inc. All rights reserved.
+              © 2023 HomeStay, Inc. All rights reserved.
             </div>
             
             <div className="flex space-x-6 text-sm text-surface-600 dark:text-surface-400">
