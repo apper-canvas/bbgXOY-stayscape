@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Search, MapPin, Calendar, Users, Filter, Heart, Star } from 'lucide-react'
 import MainFeature from '../components/MainFeature'
+import DestinationCarousel from '../components/DestinationCarousel'
 
 // Mock data for properties
 const PROPERTIES = [
@@ -244,6 +245,9 @@ function Home() {
           </motion.div>
         </div>
       </section>
+      
+      {/* Popular Destinations Carousel */}
+      <DestinationCarousel />
       
       {/* Categories */}
       <section className="py-8 border-b border-surface-200 dark:border-surface-700">
